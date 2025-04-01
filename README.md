@@ -55,4 +55,28 @@ else:
     print("El clima es agradable.")
 
 
-#  Notas de ejemplo
+#  Notas de ejemplo.
+
+-input("Ingresa la temperatura: ") → Muestra un mensaje en la consola y espera que el usuario ingrese un valor.
+
+-input() devuelve siempre un texto (str), por lo que usamos int() para convertirlo en número entero.
+
+-El valor ingresado se almacena en la variable temperatura.
+
+-if verifica si temperatura es mayor a 30.
+
+-Si la condición es True, ejecuta print("Hace calor.").
+
+-Si temperatura = 35, la salida será: Hace calor 
+
+-elif (abreviatura de "else if") evalúa otra condición si la anterior fue False.
+
+-Aquí, revisamos si temperatura es menor a 10.
+
+-Si es True, imprime "Hace frío.".
+
+-else se ejecuta si ninguna de las condiciones anteriores se cumple.
+
+-Como ya verificamos si temperatura > 30 o < 10, aquí solo quedan los valores entre 10 y 30.
+
+-Se imprime "El clima es agradable.".
